@@ -112,6 +112,5 @@ public class ClienteServicioTestUnitaria {
         clienteService.delete(2);
         verify(clienteRepository,never()).deleteById(anyInt());
     }
-
 }
 
